@@ -24,6 +24,14 @@ ngrams, is a term meant to indicate the number of words we consider together.  F
 
 Why is this important?  Imagine your text had the word 'machine' and 'learning'.  Individually these words could convey that you are learning about how machines work. But taken together, 'machine learning' - indicates the study of how machines learn from data.
 
+## How to stand out in a collection of documents
+
+You might be tempted to throw in words that you think will get noticed and appear large in the word cloud.
+
+However, if a company is sifting through a collection of documents, resumes for example, then if everyone wrote the words 'innovative' or 'leadership' - then those words might also be filtered out.  While those words might be individually important to the text being analyzed, when looking at the collection as a whole, if a word appears in a large percentage of the documents then those words could be ignored as well.  In this case, a word used too often across the corpus of documents does not help in differentiating the documents.
+
+In this case, you might want to look for words that have similar means but might not be commonly used.  Keep in mind, that words that have similar roots will be processed by stemming or lemmatization.  
+
 ## Code Details
 
 ### Setup
