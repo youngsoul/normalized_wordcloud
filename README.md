@@ -20,7 +20,7 @@ The goal is to create a WordCloud of only the important words to create a visual
 
 By 'important', at this point we are just creating a 'count' of the words after all of the stop words have been removed, stemming the remaining words and adding ngrams to the list.
 
-ngrams, is a term meant to indicate the number of words we consider together.  For example a 2-gram means we look at pairs of words in addition to each work individually.
+ngrams, is a term meant to indicate the number of words we consider together.  For example a 2-gram means we look at pairs of words in addition to each word individually.
 
 Why is this important?  Imagine your text had the word 'machine' and 'learning'.  Individually these words could convey that you are learning about how machines work. But taken together, 'machine learning' - indicates the study of how machines learn from data.
 
