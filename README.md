@@ -58,3 +58,6 @@ This class leverages `nltk` to process the raw text into a collection of strings
 In addition, it creates 2-gram words by taking each 2-gram token and concatinating with an underscore.  For example a 2-gram of ('machine', 'leaning') becomes a 1-gram word of 'machine_learning'
 
 
+## Example
+
+![Alt text](./wordcloud_image.png?raw=true "Example WordCloud")
